@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="HotelActivityTheme" parent="AppTheme">
+        <item name="android:statusBarColor">
+            @android:color/transparent
+        </item>
+    </style>
+
+    <style name="ButtonTheme" parent="AppTheme">
+        <item name="colorButtonNormal">
+            @color/colorPrimary
+        </item>
+        <item name="android:colorControlHighlight">
+            @color/colorPrimaryDark
+        </item>
+    </style>
+</resources>

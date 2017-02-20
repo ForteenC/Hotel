@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<litepal>
+    <dbname value = "HotelBook"/>
+    <version value = "9"/>
+    <list>
+        <mapping class="com.dbw.hotel.model.Hotel"/>
+        <mapping class="com.dbw.hotel.model.HotelOrder"/>
+        <mapping class="com.dbw.hotel.model.Customer"/>
+    </list>
+</litepal>
