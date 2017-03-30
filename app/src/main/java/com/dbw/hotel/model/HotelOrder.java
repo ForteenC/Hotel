@@ -1,20 +1,16 @@
 package com.dbw.hotel.model;
 
-import org.litepal.crud.DataSupport;
-
-import java.util.Date;
-
 /**
  * Created by DBW on 2017/1/3.
  * 订单表
  */
-public class HotelOrder extends DataSupport{
+public class HotelOrder {
 
     private String hotel;                   //酒店
     private String orderID;                 //订单ID
-    private String customer;              //顾客
+    private String customer;                //顾客
     private String beginTime;
-    private String endTime;                   //订房和退房时间
+    private String endTime;                 //订房和退房时间
     private double orderPrice;              //价格
 
 
